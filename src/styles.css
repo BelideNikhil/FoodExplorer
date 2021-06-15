@@ -1,0 +1,55 @@
+body {
+  background: url(https://cdn.pixabay.com/photo/2016/04/01/11/28/bread-1300348_960_720.png)
+    no-repeat center center;
+  height: 70vh;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 500px;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+.output-list {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: #78350f;
+}
+h2 {
+  padding: 10px 0;
+  border-bottom: 1px dashed;
+  border-top: 1px dashed;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 0 20px 20px 0;
+  border: 2px solid#F59E0B;
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: white;
+  font-weight: 600;
+}
+.btn:hover {
+  background: transparent;
+  transform: scale(0.98);
+}
+.output-list {
+  padding: 20px;
+  border: 2px dotted;
+  font-size: 18px;
+  font-weight: 600;
+}
+.name {
+  color: black;
+}
+.sub {
+  padding-top: 15px;
+  font-size: medium;
+}
