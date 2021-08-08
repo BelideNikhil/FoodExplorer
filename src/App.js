@@ -1,7 +1,7 @@
 import "./styles.css";
 import { useState } from "react";
 
-var foodDb = {
+let foodDb = {
   Egg: [
     {
       recipeName: "Egg Maggi Masala",
@@ -34,10 +34,10 @@ var foodDb = {
   ]
 };
 
-var foodKeys = Object.keys(foodDb);
+let foodKeys = Object.keys(foodDb);
 
 export default function App() {
-  var [baseIngredient, setBaseIngredient] = useState("Egg");
+  let [baseIngredient, setBaseIngredient] = useState("Egg");
 
   function callThisFunction(whole_argument) {
     setBaseIngredient(whole_argument);
@@ -70,6 +70,23 @@ export default function App() {
             );
           })}
         </div>
+        <footer>
+          <h4>Made by Nikhil Belide</h4>
+          <ul>
+            <li>
+              <a href="https://twitter.com/Nikhil_Belide" target="_blank">
+                TWITTER
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/BelideNikhil/RecipeLocker"
+                target="_blank">
+                GITHUB
+              </a>
+            </li>
+          </ul>
+        </footer>
       </div>
     </div>
   );
