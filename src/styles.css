@@ -16,7 +16,9 @@ body {
 ul {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+}
 h2,
 .output-list {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -52,4 +54,32 @@ h2 {
 .sub {
   padding-top: 15px;
   font-size: medium;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer h4 {
+  margin: 0;
+  padding: 0;
+}
+footer ul {
+  display: flex;
+  padding: 10px;
+}
+footer ul a {
+  font-size: 0.8rem;
+  color: #000;
+  border: 2px dotted #78350f;
+  padding: 5px;
+  border-radius: 1px;
+  font-weight: 600;
+  margin: 10px;
 }
