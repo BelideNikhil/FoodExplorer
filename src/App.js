@@ -87,7 +87,7 @@ export default function App() {
                 {/* getting value by .key */}
                 <li className="name">{each.recipeName}</li>
                 <li className="sub">{each.recipeBy}</li>
-                <li className="sub">{each.rating}</li>
+                <li className="sub">Rating : {each.rating}</li>
               </ul>
             );
           })}
